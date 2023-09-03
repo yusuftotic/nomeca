@@ -1,0 +1,45 @@
+.months{
+    width: var(--width-page);
+    height: var(--height-page);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.months .monthsForm{
+    margin: 13rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.months .monthsForm .monthsQuestionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0 0 1.5rem 0;
+}
+.months .monthsForm .monthsQuestionContainer .monthsQuestion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    font-size: 25px;
+    margin: 1rem 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.months .monthsForm .monthsInput{
+    width: 100px;
+    color: #000;
+    font-size: 30px;
+    padding: .5rem;
+    margin: 1.5rem;
+    margin-bottom: 3rem;
+    border: 3px solid var(--color-primary);
+    border-radius: 5px;
+}
